@@ -5,6 +5,7 @@ This project is a full-stack blog application built using Node.js, Express.js, S
 Users can sign up, log in, create posts, comment on posts, and view a feed of posts. <br>
 It follows the Model-View-Controller (MVC) architectural pattern and includes authentication and authorization features.
 
+<<<<<<< HEAD
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -152,3 +153,5 @@ This project is licensed under the MIT License.
 
 
 
+=======
+>>>>>>> bac75ad6217b7c51a739a44ab4e35da9566a7896
