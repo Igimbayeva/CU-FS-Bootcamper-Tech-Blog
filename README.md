@@ -5,7 +5,6 @@ This project is a full-stack blog application built using Node.js, Express.js, S
 Users can sign up, log in, create posts, comment on posts, and view a feed of posts. <br>
 It follows the Model-View-Controller (MVC) architectural pattern and includes authentication and authorization features.
 
-<<<<<<< HEAD
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -44,8 +43,7 @@ It follows the Model-View-Controller (MVC) architectural pattern and includes au
     ```sh
     npm start
     ```
-    The application will be running on `http://localhost:3000`.
-
+   
 ## Usage
 1. **Sign Up**: Navigate to the signup page to create a new account.
 2. **Log In**: Log in with your credentials.
@@ -141,7 +139,7 @@ It follows the Model-View-Controller (MVC) architectural pattern and includes au
 - **Authentication**: Express-session, bcrypt
 - **Environment Variables**: dotenv
 - **Deployment**: [Render](https://render.com)
-- Live URL: [https://your-app-url.render.com](https://your-app-url.render.com)
+- Live URL: [https://cu-fs-bootcamper-tech-blog.onrender.com/](https://your-app-url.render.com)
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request.
@@ -153,5 +151,3 @@ This project is licensed under the MIT License.
 
 
 
-=======
->>>>>>> bac75ad6217b7c51a739a44ab4e35da9566a7896
