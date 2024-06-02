@@ -75,7 +75,7 @@ It follows the Model-View-Controller (MVC) architectural pattern and includes au
 │
 ├── public
 │   ├── css
-│   │   ├── jass.css          # Additional CSS file (example)
+│   │   ├── jass.css          # Additional CSS file  
 │   │   └── style.css         # Main CSS styles
 │   ├── js
 │   │   ├── comment.js        # JavaScript for comments
