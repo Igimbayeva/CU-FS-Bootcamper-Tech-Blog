@@ -139,7 +139,7 @@ It follows the Model-View-Controller (MVC) architectural pattern and includes au
 - **Authentication**: Express-session, bcrypt
 - **Environment Variables**: dotenv
 - **Deployment**: [Render](https://render.com)
-- Live URL: [https://cu-fs-bootcamper-tech-blog.onrender.com/](https://your-app-url.render.com)
+- Live URL: [https://cu-fs-bootcamper-tech-blog.onrender.com/](https://cu-fs-bootcamper-tech-blog.onrender.com/)
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request.
