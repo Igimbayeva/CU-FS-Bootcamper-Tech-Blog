@@ -15,25 +15,25 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    body: {
-      type: DataTypes.STRING,
+    content: {
+      type: DataTypes.TEXT,
       allowNull: false,
     },
     user_id: {
       type: DataTypes.INTEGER,
+      allowNull: false,
       references: {
         model: 'user',
         key: 'id',
       },
-      allowNull: false,
     },
   },
   {
     sequelize,
-    timestamps: true, // Explicitly enable timestamps
-    freezeTableName: true,
-    underscored: true,
     modelName: 'post',
+    timestamps: true, // Enable timestamps (createdAt, updatedAt)
+    underscored: true, // Use underscored naming
+    freezeTableName: true, // Prevent Sequelize from pluralizing table names
   }
 );
 

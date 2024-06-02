@@ -1,14 +1,14 @@
 [
   {
-    "title": "Music Near Me",
-    "body": "A mobile app that will send you notifications whenever a concert is playing in your area."
+    "title": "The Latest in AI Research",
+    "body": "Discover the cutting-edge advancements in artificial intelligence with articles on neural networks, machine learning algorithms, and more!"
   },
   {
-    "title": "The Ultimate Tech Quiz",
-    "body": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!"
+    "title": "JavaScript Framework Comparison",
+    "body": "An in-depth analysis of popular JavaScript frameworks like React, Angular, and Vue.js, helping developers choose the right tool for their next project."
   },
   {
-    "title": "Roll 'Em Up",
-    "body": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes."
+    "title": "Tech Career Insights",
+    "body": "Explore career tips, industry trends, and job opportunities in the rapidly evolving field of technology."
   }
 ]

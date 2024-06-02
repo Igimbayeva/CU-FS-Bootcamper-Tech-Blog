@@ -6,11 +6,16 @@ router.post('/', apiGuard, async (req, res) => {
   try {
     const newComment = await Comment.create({
       ...req.body,
-      userId: req.session.user_id,
+      user_id: req.session.user_id,
     });
-    res.json(newComment);
+    res.status(200).json(newComment);
   } catch (err) {
-    res.status(500).json(err);
+    console.log(err)
+    if (err instanceof SyntaxError) {
+      res.status(400).json({ message: 'Bad request' });//Client Errors
+    } else {
+      res.status(500).json({ message: 'Server Error' });//Server Errors
+    }
   }
 });
 

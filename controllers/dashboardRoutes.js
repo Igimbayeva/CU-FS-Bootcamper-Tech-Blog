@@ -3,10 +3,14 @@ const { Post } = require('../models');
 const { withGuard } = require('../utils/authGuard');
 
 router.get('/', withGuard, async (req, res) => {
+  if (!req.session.user_id) {
+    return res.status(401).json({ message: 'You must be logged in to view this page' });
+  }
+
   try {
     const postData = await Post.findAll({
       where: {
-        userId: req.session.user_id,
+        user_id: req.session.user_id,
       },
     });
 
@@ -18,6 +22,7 @@ router.get('/', withGuard, async (req, res) => {
       loggedIn: req.session.logged_in,
     });
   } catch (err) {
+    console.error('Error fetching dashboard data:', err);
     res.status(500).json(err);
   }
 });
@@ -45,6 +50,7 @@ router.get('/edit/:id', withGuard, async (req, res) => {
       res.status(404).end();
     }
   } catch (err) {
+    console.error('Error fetching post for editing:', err);
     res.status(500).json(err);
   }
 });

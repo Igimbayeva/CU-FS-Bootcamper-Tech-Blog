@@ -9,7 +9,7 @@ const signupFormHandler = async function (event) {
     .value.trim();
 
   if (passwordEl.length >= 8 && usernameEl) {
-    const response = await fetch('/api/users', {
+    const response = await fetch('/api/users/signup', {
       method: 'POST',
       body: JSON.stringify({
         username: usernameEl,
